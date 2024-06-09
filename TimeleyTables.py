@@ -14,23 +14,24 @@ class Menu:
         return bill
 
     def __repr__(self):
-        return "The " + self.name + " is available from " + str(self.start_time) + ":00am - " + str(self.end_time) + ":00pm."
+        return "The " + self.name + " is available from " + str(self.start_time) + ":00 - " + str(self.end_time) + ":00."
 
 # Franchise Class
 class Franchise:
-    def __init__(self, address, menus):
-        self.address = address
-        self.menus = menus
+  def __init__(self, address, menus):
+    self.address = address
+    self.menus = menus
 
-    def __repr__(self):
-        return self.address
+  def __repr__(self):
+    return self.address
 
-    def available_menus(self, time):
-        available_menus = []
-        for menu in self.menus:
-            if time >= menu.start_time and time <= menu.end_time:
-                available_menus.append(menu)
-        return available_menus
+  def available_menus(self, time):
+    available_menus = []
+    for menu in self.menus:
+      if time > menu.start_time and time <= menu.end_time:  # Changed comparison for start time
+        available_menus.append(menu)
+    return available_menus
+
 
 # Business Class
 class Business:
@@ -107,7 +108,10 @@ arepa = Business("Take a' Arepa", [arepas_place, new_installment])
 
 # Print Playground
 print(brunch_menu.items)
+
 print(flagship_store)
+
 print(flagship_store.available_menus(17))
+
 print(arepa.franchises[0].menus[0])
 
