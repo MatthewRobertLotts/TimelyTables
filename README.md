@@ -1,4 +1,5 @@
-Restaurant Menu Manager with Franchises (Python)
+- Restaurant Menu Manager with Franchises (Python)
+  
 This Python code implements a program to manage menus, franchises, and functionalities for a restaurant business.
 
 
@@ -58,8 +59,6 @@ To further test the functionalities, you can modify the data (menu items, prices
 This code requires no external libraries beyond Python's built-in functionalities.
 
 
-- License
+- Free Use!
 
-  Free Use
-
-This code provides a basic structure for managing menus and franchises within a restaurant business. Feel free to adapt and extend it for your specific needs!
+ Feel free to adapt and extend it for your specific needs!
