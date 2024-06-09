@@ -1,4 +1,4 @@
-- Restaurant Menu Manager with Franchises (Python)
+Restaurant Menu Manager with Franchises (Python)
   
 This Python code implements a program to manage menus, franchises, and functionalities for a restaurant business.
 
