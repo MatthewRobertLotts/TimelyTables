@@ -1,6 +1,7 @@
 Restaurant Menu Manager with Franchises (Python)
 This Python code implements a program to manage menus, franchises, and functionalities for a restaurant business.
 
+-
 - Features
 Menu Class: Represents a menu with a name, available items (including prices), start and end times.
 Franchise Class: Represents a franchise location with an address and a list of associated menus.
@@ -8,6 +9,7 @@ Business Class: Represents a restaurant business with a name and a list of franc
 Bill Calculation: Calculates the total bill based on purchased items and their corresponding prices in the menu.
 Available Menus: Determines which menus are available based on a given time.
 
+-
 - Usage
 The code is primarily for demonstration purposes, but it can be used as a starting point for building a restaurant menu management system. Here's a breakdown of the functionalities:
 
@@ -38,6 +40,7 @@ Checking Available Menus:
 Pass a time (in hours) as an argument to the available_menus method of the Franchise class.
 This method iterates through the franchise's menus and checks if the time falls within the start and end times of each menu. It returns a list of available menus at that time.
 
+-
 - Testing
 The provided code includes a basic print playground at the end. You can run the script to:
 
@@ -47,9 +50,11 @@ Check available menus at a particular time (print(flagship_store.available_menus
 Access a menu of another franchise (print(arepa.franchises[0].menus[0]))
 To further test the functionalities, you can modify the data (menu items, prices, times) and experiment with different scenarios. You can also write your own unit tests to ensure the code behaves as expected.
 
+-
 - Dependencies
 This code requires no external libraries beyond Python's built-in functionalities.
 
+-
 - License
   Free Use
 
