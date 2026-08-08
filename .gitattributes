@@ -1,0 +1,36 @@
+# Normalize line endings to LF
+* text=auto
+
+# Source files
+*.py text diff=python
+*.ts text diff=typescript
+*.dart text diff=dart
+*.js text diff=javascript
+*.html text diff=html
+*.css text diff=css
+*.ps1 text
+*.psm1 text
+*.sql text
+
+# Markdown
+*.md text
+
+# JSON/YAML
+*.json text
+*.yaml text
+*.yml text
+
+# Images - binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+*.ico binary
+
+# Archives
+*.zip binary
+*.tar.gz binary
+
+# Lock files
+package-lock.json -diff
